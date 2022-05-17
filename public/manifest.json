@@ -1,0 +1,17 @@
+{
+  "theme_color" : "#E30B13",
+  "background_color" : "#191B1F",
+  "scope" : "/",
+  "start_url" : "/",
+  "name" : "Online Cinema",
+  "app_name" : "Online Cinema",
+  "short_name" : "Cinema",
+  "description" : "Watch Movie and Cinema in your browser",
+  "icons" : [
+    {
+      "src": "/favicons/apple-touch-icon-57x57.png",
+      "sizes" : "57x57",
+      "type" : "image/png"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.form {
+  @apply mt-12;
+  .fields {
+    @apply flex flex-center-between flex-wrap;
+    > div {
+      width: 48%;
+    }
+  }
+
+  > button {
+    @apply mt-10;
+  }
+}

@@ -1,0 +1,11 @@
+.placeholder {
+  @apply flex flex-col items-center justify-center absolute top-0 left-0 w-full h-full bg-gray-800 bg-opacity-80;
+
+  > div {
+    @apply mb-6 text-white text-opacity-80 text-2xl text-center;
+
+    > div {
+      @apply text-white mb-4 text-lg;
+    }
+  }
+}
