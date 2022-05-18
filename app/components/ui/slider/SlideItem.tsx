@@ -31,7 +31,7 @@ const SlideItem: FC<ISlideItem> = ({ slide, buttonTitle = 'Watch' }) => {
 
 			<div className={styles.content}>
 				<div className={styles.heading}>{slide.title}</div>
-				<div className={styles.subheading}>{slide.subTitle}</div>
+				<div className={styles.subHeading}>{slide.subTitle}</div>
 				<Button onClick={() => push(slide.link)}>{buttonTitle}</Button>
 			</div>
 		</div>
